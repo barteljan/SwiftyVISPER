@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyVISPER_Example' do
+  pod 'SwiftyVISPER', :path => '../'
+
+  target 'SwiftyVISPER_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
