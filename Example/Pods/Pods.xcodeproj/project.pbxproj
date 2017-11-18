@@ -1,0 +1,1220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F1F0E5EC8AAB9F209EA2032BC29C6B /* ActionReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76310EB61EF8D0D3DD74BBFBB5349D10 /* ActionReducer.swift */; };
+		08E6070FFF4136CBC98E9A785807067F /* Pods-SwiftyVISPER_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EB56C87E7905F5E3D18229F6929EEC /* Pods-SwiftyVISPER_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B30856E198A088F75A0168503B81A2 /* SwiftyVISPER-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F91DF83E6FD7DC6742954BCBBFDE12 /* SwiftyVISPER-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A152966E82FB0640EB094C55B6FA230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C450DA79B1D57940D5A384D486E4B9A /* Foundation.framework */; };
+		0C696ACFAA807E438C3751B7556AF535 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5ABF7A40BF463E30D7347C2EFCCF0 /* Store.swift */; };
+		0E5D0084D40D4F5AB6A846BE4CEDEA14 /* RoutingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200483EF2402D97C1A07D0A50D1EEAEC /* RoutingPresenter.swift */; };
+		0EC14EAA4EE6C0FFDA143109BFFB7655 /* SubscriptionReferenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1F810B735A488D294F7B8556EF1353 /* SubscriptionReferenceType.swift */; };
+		1238F54890B142B78B8C5EAA42711F4A /* ActionReducerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9880217EDF7984DE0A8AB228FECCDDC7 /* ActionReducerType.swift */; };
+		1AA0FE9361269DACB18BF9A24E681943 /* VISPER-Redux-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD69167C81B3B11260553817D1546FC /* VISPER-Redux-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8E6CDC005E7BDCE74281E11EA89DE1 /* StreamType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900F8B0630835B535D9689A0E6AB0805 /* StreamType.swift */; };
+		27D3520383FC3184C932CB25127647A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C450DA79B1D57940D5A384D486E4B9A /* Foundation.framework */; };
+		29199CF8CE86A78B47A4259D5F1112DD /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904B5FDBED491F47FF7133965971AF81 /* AppReducer.swift */; };
+		295F421B24C196B05808ECB67A0BD299 /* AnyFeatureObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDCA358A8507B1B08AECB2E27A0BCC5 /* AnyFeatureObserver.swift */; };
+		2BBA0BC8FEB95E5C1403BB114B07F60C /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D136C032AC5800409102223AE7DD24 /* Application.swift */; };
+		2BE8649380858C58CFF2D0FB2E703390 /* AnyApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9231E7ABDC90D2D14CCD8A4D4647C /* AnyApplication.swift */; };
+		337334124760E96B842626F129034787 /* Pods-SwiftyVISPER_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 531ED52A43AF2CEAC31B0B36EABA2234 /* Pods-SwiftyVISPER_Tests-dummy.m */; };
+		4B1D2B86182512005EC818BEE97726A2 /* VISPER-Wireframe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D00EEE15D2B735551C9776C091F1A08C /* VISPER-Wireframe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6123B39FC505134236D8AA9161085449 /* VISPER_Wireframe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46998994C3347F5CDEFBE365F7E35BE5 /* VISPER_Wireframe.framework */; };
+		6BAC1E061DD97ADF7840721B2826FD08 /* ControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775AABD6ADA921FC6E6C5244D8CD51FB /* ControllerProvider.swift */; };
+		6D053E7E5EF3B18D8AD6860E78755DA3 /* RoutingObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C87FF3B31E0FC7C48F4FB3FD493678 /* RoutingObserver.swift */; };
+		6DAF50116E3525816E73664B8ACADBC9 /* RoutingOptionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA95960BB9963DBA959007D13B8A6DB /* RoutingOptionProvider.swift */; };
+		6E58EE1BFE876D130392990FC53AF8C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C450DA79B1D57940D5A384D486E4B9A /* Foundation.framework */; };
+		730CC2703D067692BC4C46FECCF5CF09 /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039D7AF63330697183DFD9C96B6615CB /* Redux.swift */; };
+		7A861BF0905049BBC2CEBE9471FF37FB /* SwiftyVISPER-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6F789810A8E8A962956BE2EB8AE0B /* SwiftyVISPER-dummy.m */; };
+		805EB6B79F2B0CD8A47CC33E552F4480 /* ApplicationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BC3131AC919E12187E1AEE7A5BF059 /* ApplicationType.swift */; };
+		881B3C7F950CD044871AB0729026CCF2 /* FeatureObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0EEFD3E19026DD46E0605E69665552 /* FeatureObserverType.swift */; };
+		8C932F8B4599D4DB0FEDF2459F45DE08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C450DA79B1D57940D5A384D486E4B9A /* Foundation.framework */; };
+		94F49CDF75265BBE0843DE8B90541FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C450DA79B1D57940D5A384D486E4B9A /* Foundation.framework */; };
+		9DB382E5CE5F469F1CE33E8D26155411 /* FunctionReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAD4D13B29E4256885AE7D87FD7F65 /* FunctionReducer.swift */; };
+		9E70A6C6AAE68C795AD4A5230BFB5DED /* VISPERWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CE7C0458EF15BC5773D8B12712EFD /* VISPERWireframe.swift */; };
+		A351A2FA1AFB333DA6E44D8064A79F8A /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DFF3AACC6B89B6580FB6854CCD402 /* Middleware.swift */; };
+		A600EA3B539F4DB9CF4B995DADE48F07 /* VISPER-Redux-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FA0A021C64D5164340C4D41D557380 /* VISPER-Redux-dummy.m */; };
+		AB207B585D729A923E65226FA377A970 /* Pods-SwiftyVISPER_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 415885DEE9E1FCECCFFBEB54C97997E6 /* Pods-SwiftyVISPER_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B244BE0DDA6F917AD54889FDF1518FF6 /* ReducerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08867BEC116E6AFC2D8A1BAB5F7CDC3 /* ReducerContainer.swift */; };
+		B72C9F42FDBE41B67C4D1FFE1273214A /* ViewFeatureObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDBDC6E170F9E058A95B947C9F93ED /* ViewFeatureObserver.swift */; };
+		BAFE01DC59BB22E146D983091040E9C1 /* Pods-SwiftyVISPER_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC643E0A44618258DF0CF539FEC7B53 /* Pods-SwiftyVISPER_Example-dummy.m */; };
+		BB06D7CAD5106387B688642FBBF33875 /* LogicFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF7D5BEB9729EB9D7B6564294B2864F /* LogicFeature.swift */; };
+		BD7C2B155020514690437C28CCA17166 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3C8464DE5C5B66D62FDDBD14759F2 /* Wireframe.swift */; };
+		BE5EC76E87203D97005EEDBDBC5B7610 /* ObservableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63709872432867C6C03ACDE3325F588F /* ObservableProperty.swift */; };
+		C2A9939BFDEC3C34FB5934633F501C53 /* VISPER_Redux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4776293E42AE1F4BEE5616E7C323297 /* VISPER_Redux.framework */; };
+		C4483D0799291D05675F0349F12B6E87 /* ObservablePropertySubscriptionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97643209838B1F5E4F83EE48C450435D /* ObservablePropertySubscriptionReference.swift */; };
+		D276B5F9AD261D16A1080A3BACB51255 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610C2A2E5EE4B85FCF433DB057AC509D /* Feature.swift */; };
+		D2D5DB1B694461431C9447F6213BF815 /* ReducerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F5F811FD62B9F96587FD5747F8C24 /* ReducerProvider.swift */; };
+		DE1590131BF4F402CF398619A9F32F5C /* SubscriptionReferenceBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18735B9C3962A0A276B2AE66A2D7917B /* SubscriptionReferenceBag.swift */; };
+		E0D29AFAB071F9344EE8AE9D750013DA /* LogicFeatureObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE9E9FC3CBDC4A2B2B61DFC2E4814F /* LogicFeatureObserver.swift */; };
+		E10416A02E6B384720835D3975274969 /* ObservablePropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2991A407AD72B2CCF0BFE59758B528 /* ObservablePropertyType.swift */; };
+		E42C16C1F3E0C022DD19CE588ECFB48E /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0F3E617F3A889AC53BEEFF293022B /* Action.swift */; };
+		E7560570B62CF9E1C4C401EDBE9F62A6 /* ViewFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7C278400218E3B20B70426E6A928A /* ViewFeature.swift */; };
+		F43545E29C341754C982BAC952A74F92 /* RoutingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BA88C987DB55915B7AB5402343E520 /* RoutingOption.swift */; };
+		F56F94FD4707ACB824DA980BE93A0A4B /* AnyActionReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A2D102E2C2C28DD886F2FE6557529 /* AnyActionReducer.swift */; };
+		F9B2112AA7C8DB3FF807002E05FF3277 /* ActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5956BB54B3C260CBC17B8BF0FA2E53 /* ActionDispatcher.swift */; };
+		F9F5D48AC91F94237C1C7270C789339B /* VISPER-Wireframe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5343E6CDB33842B7CD29F230687A4757 /* VISPER-Wireframe-dummy.m */; };
+		FF1756C9D5A0A80E304DA6393899308D /* ApplicationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3127642F3AF3F2531A103134C93D3FE /* ApplicationFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E7C7694DD93E7B0C32FD85E79C94215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FE24DC3DE9A73E669082818F8A5273B;
+			remoteInfo = "VISPER-Redux";
+		};
+		4654D387487A0494FC14AA0895CD083F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7DEA4D6283D09D3BB19E6D18200B01B;
+			remoteInfo = "VISPER-Wireframe";
+		};
+		800767FBF1F344E88A1720FE848A52D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2EF551FE627A5A94DDFFD85B8B6D78;
+			remoteInfo = SwiftyVISPER;
+		};
+		9239BEFF298AE20FA3DBF4F06BE38CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7DEA4D6283D09D3BB19E6D18200B01B;
+			remoteInfo = "VISPER-Wireframe";
+		};
+		C022921144CD7D829A505BEC5D7F8115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FE24DC3DE9A73E669082818F8A5273B;
+			remoteInfo = "VISPER-Redux";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039D7AF63330697183DFD9C96B6615CB /* Redux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Redux.swift; path = "VISPER-Redux/Classes/Redux/Redux.swift"; sourceTree = "<group>"; };
+		03E9231E7ABDC90D2D14CCD8A4D4647C /* AnyApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyApplication.swift; path = SwiftyVISPER/Classes/AnyApplication.swift; sourceTree = "<group>"; };
+		04A7C278400218E3B20B70426E6A928A /* ViewFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewFeature.swift; path = SwiftyVISPER/Classes/ViewFeature.swift; sourceTree = "<group>"; };
+		05BC3131AC919E12187E1AEE7A5BF059 /* ApplicationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationType.swift; path = SwiftyVISPER/Classes/ApplicationType.swift; sourceTree = "<group>"; };
+		05F91DF83E6FD7DC6742954BCBBFDE12 /* SwiftyVISPER-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyVISPER-umbrella.h"; sourceTree = "<group>"; };
+		0C2900C4E19354C95B955D7DABA6EA86 /* Pods-SwiftyVISPER_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftyVISPER_Example.modulemap"; sourceTree = "<group>"; };
+		0CF7D5BEB9729EB9D7B6564294B2864F /* LogicFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogicFeature.swift; path = SwiftyVISPER/Classes/LogicFeature.swift; sourceTree = "<group>"; };
+		0E2991A407AD72B2CCF0BFE59758B528 /* ObservablePropertyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservablePropertyType.swift; path = "VISPER-Redux/Classes/Reactive/ObservablePropertyType.swift"; sourceTree = "<group>"; };
+		0E8887981CA830013C751CC3DDBCFB63 /* Pods-SwiftyVISPER_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyVISPER_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0FB3C8464DE5C5B66D62FDDBD14759F2 /* Wireframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wireframe.swift; path = "VISPER-Wireframe/Classes/Wireframe.swift"; sourceTree = "<group>"; };
+		116676E27A6875DAD6BC29B82FCB1BE3 /* SwiftyVISPER-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyVISPER-prefix.pch"; sourceTree = "<group>"; };
+		11F777DB2D292871C05133E5414F6F73 /* VISPER-Wireframe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "VISPER-Wireframe.xcconfig"; sourceTree = "<group>"; };
+		18735B9C3962A0A276B2AE66A2D7917B /* SubscriptionReferenceBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionReferenceBag.swift; path = "VISPER-Redux/Classes/Reactive/SubscriptionReferenceBag.swift"; sourceTree = "<group>"; };
+		19EB56C87E7905F5E3D18229F6929EEC /* Pods-SwiftyVISPER_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyVISPER_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1EDCA358A8507B1B08AECB2E27A0BCC5 /* AnyFeatureObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyFeatureObserver.swift; path = SwiftyVISPER/Classes/AnyFeatureObserver.swift; sourceTree = "<group>"; };
+		200483EF2402D97C1A07D0A50D1EEAEC /* RoutingPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoutingPresenter.swift; path = "VISPER-Wireframe/Classes/RoutingPresenter.swift"; sourceTree = "<group>"; };
+		20BA88C987DB55915B7AB5402343E520 /* RoutingOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoutingOption.swift; path = "VISPER-Wireframe/Classes/RoutingOption.swift"; sourceTree = "<group>"; };
+		236A2D102E2C2C28DD886F2FE6557529 /* AnyActionReducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyActionReducer.swift; path = "VISPER-Redux/Classes/Redux/AnyActionReducer.swift"; sourceTree = "<group>"; };
+		26E0BEA90750F7F6B36CC7AEC9B6FFDC /* VISPER_Wireframe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VISPER_Wireframe.framework; path = "VISPER-Wireframe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35BB600A7B916147F4DA6A364F22E3BC /* Pods-SwiftyVISPER_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyVISPER_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3C450DA79B1D57940D5A384D486E4B9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3DA6F789810A8E8A962956BE2EB8AE0B /* SwiftyVISPER-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyVISPER-dummy.m"; sourceTree = "<group>"; };
+		407CE7C0458EF15BC5773D8B12712EFD /* VISPERWireframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VISPERWireframe.swift; path = "VISPER-Wireframe/Classes/VISPERWireframe.swift"; sourceTree = "<group>"; };
+		415885DEE9E1FCECCFFBEB54C97997E6 /* Pods-SwiftyVISPER_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyVISPER_Example-umbrella.h"; sourceTree = "<group>"; };
+		46998994C3347F5CDEFBE365F7E35BE5 /* VISPER_Wireframe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VISPER_Wireframe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D136C032AC5800409102223AE7DD24 /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = SwiftyVISPER/Classes/Application.swift; sourceTree = "<group>"; };
+		4AA95960BB9963DBA959007D13B8A6DB /* RoutingOptionProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoutingOptionProvider.swift; path = "VISPER-Wireframe/Classes/RoutingOptionProvider.swift"; sourceTree = "<group>"; };
+		4B94A74A6405220959BCAEF3A9685FA9 /* VISPER-Redux-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VISPER-Redux-prefix.pch"; sourceTree = "<group>"; };
+		531ED52A43AF2CEAC31B0B36EABA2234 /* Pods-SwiftyVISPER_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyVISPER_Tests-dummy.m"; sourceTree = "<group>"; };
+		5343E6CDB33842B7CD29F230687A4757 /* VISPER-Wireframe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VISPER-Wireframe-dummy.m"; sourceTree = "<group>"; };
+		610C2A2E5EE4B85FCF433DB057AC509D /* Feature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature.swift; path = SwiftyVISPER/Classes/Feature.swift; sourceTree = "<group>"; };
+		63709872432867C6C03ACDE3325F588F /* ObservableProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableProperty.swift; path = "VISPER-Redux/Classes/Reactive/ObservableProperty.swift"; sourceTree = "<group>"; };
+		6577B8405233298F9855F9BE4FFEFE6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5956BB54B3C260CBC17B8BF0FA2E53 /* ActionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionDispatcher.swift; path = "VISPER-Redux/Classes/Redux/ActionDispatcher.swift"; sourceTree = "<group>"; };
+		6B88ECBFFD364E26CE1F52AE50EC39DB /* Pods-SwiftyVISPER_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyVISPER_Tests-resources.sh"; sourceTree = "<group>"; };
+		70CC52B0D257748C721B89D36AEE5388 /* Pods-SwiftyVISPER_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftyVISPER_Tests.modulemap"; sourceTree = "<group>"; };
+		712DFF3AACC6B89B6580FB6854CCD402 /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = "VISPER-Redux/Classes/Redux/Middleware.swift"; sourceTree = "<group>"; };
+		75346FE65CB6A867760B4E765E8608B3 /* Pods-SwiftyVISPER_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyVISPER_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		76310EB61EF8D0D3DD74BBFBB5349D10 /* ActionReducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionReducer.swift; path = "VISPER-Redux/Classes/Redux/ActionReducer.swift"; sourceTree = "<group>"; };
+		775AABD6ADA921FC6E6C5244D8CD51FB /* ControllerProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControllerProvider.swift; path = "VISPER-Wireframe/Classes/ControllerProvider.swift"; sourceTree = "<group>"; };
+		77E0F3E617F3A889AC53BEEFF293022B /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = "VISPER-Redux/Classes/Redux/Action.swift"; sourceTree = "<group>"; };
+		785D98CF73A139401B8CB63ACC63F3DA /* VISPER-Redux.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "VISPER-Redux.xcconfig"; sourceTree = "<group>"; };
+		7CC643E0A44618258DF0CF539FEC7B53 /* Pods-SwiftyVISPER_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyVISPER_Example-dummy.m"; sourceTree = "<group>"; };
+		82975245BD22EEFFE0F4DBE93AA7E384 /* VISPER_Redux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VISPER_Redux.framework; path = "VISPER-Redux.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900F8B0630835B535D9689A0E6AB0805 /* StreamType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamType.swift; path = "VISPER-Redux/Classes/Reactive/StreamType.swift"; sourceTree = "<group>"; };
+		904B5FDBED491F47FF7133965971AF81 /* AppReducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppReducer.swift; path = "VISPER-Redux/Classes/Redux/AppReducer.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97443D151ED048736E117EE74629D619 /* SwiftyVISPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyVISPER.framework; path = SwiftyVISPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97643209838B1F5E4F83EE48C450435D /* ObservablePropertySubscriptionReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservablePropertySubscriptionReference.swift; path = "VISPER-Redux/Classes/Reactive/ObservablePropertySubscriptionReference.swift"; sourceTree = "<group>"; };
+		9880217EDF7984DE0A8AB228FECCDDC7 /* ActionReducerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionReducerType.swift; path = "VISPER-Redux/Classes/Redux/ActionReducerType.swift"; sourceTree = "<group>"; };
+		A15EDF88954BCFA677D4689E064CB27E /* Pods-SwiftyVISPER_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyVISPER_Example-resources.sh"; sourceTree = "<group>"; };
+		A6D28A8FF2A455F59A079AC13FFDE4F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80F04E5A06F48D71F28C76C180B03D9 /* SwiftyVISPER.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyVISPER.modulemap; sourceTree = "<group>"; };
+		A9CDBDC6E170F9E058A95B947C9F93ED /* ViewFeatureObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewFeatureObserver.swift; path = SwiftyVISPER/Classes/ViewFeatureObserver.swift; sourceTree = "<group>"; };
+		ADACE640C375CBF7C14C706A8160AEFC /* Pods-SwiftyVISPER_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyVISPER_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B72F86CA1064E6769060C281FA6D1A21 /* Pods-SwiftyVISPER_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyVISPER_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7357B92E3D1C8057A4529923698A03A /* VISPER-Redux.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "VISPER-Redux.modulemap"; sourceTree = "<group>"; };
+		B9CBB445DF6E293575D4BE2496F6E99E /* VISPER-Wireframe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "VISPER-Wireframe.modulemap"; sourceTree = "<group>"; };
+		BB85A48916EE0ACADED841C1C54269E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29A352C3D0CB1CB90A17DAC8AB2363C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33751BF0CFCB455066D7BA1F80393AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63F5F811FD62B9F96587FD5747F8C24 /* ReducerProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReducerProvider.swift; path = "VISPER-Redux/Classes/Redux/ReducerProvider.swift"; sourceTree = "<group>"; };
+		CA1F810B735A488D294F7B8556EF1353 /* SubscriptionReferenceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionReferenceType.swift; path = "VISPER-Redux/Classes/Reactive/SubscriptionReferenceType.swift"; sourceTree = "<group>"; };
+		D00EEE15D2B735551C9776C091F1A08C /* VISPER-Wireframe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VISPER-Wireframe-umbrella.h"; sourceTree = "<group>"; };
+		D17CB6FB11E799C7F816012E9D166ACC /* Pods-SwiftyVISPER_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyVISPER_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D706AB38BFF636DC29CDF4BCCE2EA6D3 /* Pods-SwiftyVISPER_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyVISPER_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8C87FF3B31E0FC7C48F4FB3FD493678 /* RoutingObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoutingObserver.swift; path = "VISPER-Wireframe/Classes/RoutingObserver.swift"; sourceTree = "<group>"; };
+		DEDAD4D13B29E4256885AE7D87FD7F65 /* FunctionReducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunctionReducer.swift; path = "VISPER-Redux/Classes/Redux/FunctionReducer.swift"; sourceTree = "<group>"; };
+		E04A260AC523E63E525E59192ADF4ACC /* Pods_SwiftyVISPER_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyVISPER_Example.framework; path = "Pods-SwiftyVISPER_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21EAD489271A3D97AFEB52EAF22FFCF /* SwiftyVISPER.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyVISPER.xcconfig; sourceTree = "<group>"; };
+		E3127642F3AF3F2531A103134C93D3FE /* ApplicationFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationFactory.swift; path = SwiftyVISPER/Classes/ApplicationFactory.swift; sourceTree = "<group>"; };
+		E42F7163AC4B5090F147F35FE603EF5B /* Pods-SwiftyVISPER_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyVISPER_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4776293E42AE1F4BEE5616E7C323297 /* VISPER_Redux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VISPER_Redux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8598773C7937F5A5D41FDA8243B7613 /* Pods_SwiftyVISPER_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyVISPER_Tests.framework; path = "Pods-SwiftyVISPER_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE50458D309DA0CB2DC2842801E44156 /* Pods-SwiftyVISPER_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyVISPER_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F08867BEC116E6AFC2D8A1BAB5F7CDC3 /* ReducerContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReducerContainer.swift; path = "VISPER-Redux/Classes/Redux/ReducerContainer.swift"; sourceTree = "<group>"; };
+		F1AE9E9FC3CBDC4A2B2B61DFC2E4814F /* LogicFeatureObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogicFeatureObserver.swift; path = SwiftyVISPER/Classes/LogicFeatureObserver.swift; sourceTree = "<group>"; };
+		F4FA0A021C64D5164340C4D41D557380 /* VISPER-Redux-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VISPER-Redux-dummy.m"; sourceTree = "<group>"; };
+		F5F12DDE75BAE9C24E786D9804471396 /* VISPER-Wireframe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VISPER-Wireframe-prefix.pch"; sourceTree = "<group>"; };
+		F8B5ABF7A40BF463E30D7347C2EFCCF0 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = "VISPER-Redux/Classes/Redux/Store.swift"; sourceTree = "<group>"; };
+		FBD69167C81B3B11260553817D1546FC /* VISPER-Redux-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VISPER-Redux-umbrella.h"; sourceTree = "<group>"; };
+		FC4A5EBE54B104F0DAA0A2EC217E71DF /* Pods-SwiftyVISPER_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyVISPER_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FF0EEFD3E19026DD46E0605E69665552 /* FeatureObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeatureObserverType.swift; path = SwiftyVISPER/Classes/FeatureObserverType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0725390C94DD88961F71A729FECB1A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F49CDF75265BBE0843DE8B90541FEA /* Foundation.framework in Frameworks */,
+				C2A9939BFDEC3C34FB5934633F501C53 /* VISPER_Redux.framework in Frameworks */,
+				6123B39FC505134236D8AA9161085449 /* VISPER_Wireframe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C322A7DAAFB10C49F31C594FC819F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A152966E82FB0640EB094C55B6FA230 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4537F8119B93B61A7C7E270ABFA932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D3520383FC3184C932CB25127647A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697E53D9F70D8D9378D0FA482DE04939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C932F8B4599D4DB0FEDF2459F45DE08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F1FED77E8DAD69FB51C07DEDA25DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E58EE1BFE876D130392990FC53AF8C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BFE58297D06F200E8756B36544DCDF9 /* Pods-SwiftyVISPER_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6577B8405233298F9855F9BE4FFEFE6E /* Info.plist */,
+				70CC52B0D257748C721B89D36AEE5388 /* Pods-SwiftyVISPER_Tests.modulemap */,
+				B72F86CA1064E6769060C281FA6D1A21 /* Pods-SwiftyVISPER_Tests-acknowledgements.markdown */,
+				E42F7163AC4B5090F147F35FE603EF5B /* Pods-SwiftyVISPER_Tests-acknowledgements.plist */,
+				531ED52A43AF2CEAC31B0B36EABA2234 /* Pods-SwiftyVISPER_Tests-dummy.m */,
+				35BB600A7B916147F4DA6A364F22E3BC /* Pods-SwiftyVISPER_Tests-frameworks.sh */,
+				6B88ECBFFD364E26CE1F52AE50EC39DB /* Pods-SwiftyVISPER_Tests-resources.sh */,
+				19EB56C87E7905F5E3D18229F6929EEC /* Pods-SwiftyVISPER_Tests-umbrella.h */,
+				ADACE640C375CBF7C14C706A8160AEFC /* Pods-SwiftyVISPER_Tests.debug.xcconfig */,
+				0E8887981CA830013C751CC3DDBCFB63 /* Pods-SwiftyVISPER_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftyVISPER_Tests";
+			path = "Target Support Files/Pods-SwiftyVISPER_Tests";
+			sourceTree = "<group>";
+		};
+		2F3ADCCE8AF0C80FFD8F0CE50317DC3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E04A260AC523E63E525E59192ADF4ACC /* Pods_SwiftyVISPER_Example.framework */,
+				E8598773C7937F5A5D41FDA8243B7613 /* Pods_SwiftyVISPER_Tests.framework */,
+				97443D151ED048736E117EE74629D619 /* SwiftyVISPER.framework */,
+				82975245BD22EEFFE0F4DBE93AA7E384 /* VISPER_Redux.framework */,
+				26E0BEA90750F7F6B36CC7AEC9B6FFDC /* VISPER_Wireframe.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5924514DAC376ACC857C131F88088408 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C29A352C3D0CB1CB90A17DAC8AB2363C /* Info.plist */,
+				A80F04E5A06F48D71F28C76C180B03D9 /* SwiftyVISPER.modulemap */,
+				E21EAD489271A3D97AFEB52EAF22FFCF /* SwiftyVISPER.xcconfig */,
+				3DA6F789810A8E8A962956BE2EB8AE0B /* SwiftyVISPER-dummy.m */,
+				116676E27A6875DAD6BC29B82FCB1BE3 /* SwiftyVISPER-prefix.pch */,
+				05F91DF83E6FD7DC6742954BCBBFDE12 /* SwiftyVISPER-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftyVISPER";
+			sourceTree = "<group>";
+		};
+		6DB105E10B779E0868770A6AD38385A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9878C915E32F66A2459DA876D3DCC67B /* VISPER-Redux */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D2C03E10BD0F95CF069DF7F654FC865 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C450DA79B1D57940D5A384D486E4B9A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BAF5F104387347E5BA5E58D757B13285 /* Development Pods */,
+				C0732BAAFC175544DC76D2702F790FB2 /* Frameworks */,
+				6DB105E10B779E0868770A6AD38385A9 /* Pods */,
+				2F3ADCCE8AF0C80FFD8F0CE50317DC3F /* Products */,
+				CD7AACBB39A69494E282B1CD5462314D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		860624E0FAA5C92DB2B3214D7C051263 /* SwiftyVISPER */ = {
+			isa = PBXGroup;
+			children = (
+				03E9231E7ABDC90D2D14CCD8A4D4647C /* AnyApplication.swift */,
+				1EDCA358A8507B1B08AECB2E27A0BCC5 /* AnyFeatureObserver.swift */,
+				49D136C032AC5800409102223AE7DD24 /* Application.swift */,
+				E3127642F3AF3F2531A103134C93D3FE /* ApplicationFactory.swift */,
+				05BC3131AC919E12187E1AEE7A5BF059 /* ApplicationType.swift */,
+				610C2A2E5EE4B85FCF433DB057AC509D /* Feature.swift */,
+				FF0EEFD3E19026DD46E0605E69665552 /* FeatureObserverType.swift */,
+				0CF7D5BEB9729EB9D7B6564294B2864F /* LogicFeature.swift */,
+				F1AE9E9FC3CBDC4A2B2B61DFC2E4814F /* LogicFeatureObserver.swift */,
+				04A7C278400218E3B20B70426E6A928A /* ViewFeature.swift */,
+				A9CDBDC6E170F9E058A95B947C9F93ED /* ViewFeatureObserver.swift */,
+				5924514DAC376ACC857C131F88088408 /* Support Files */,
+			);
+			name = SwiftyVISPER;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9878C915E32F66A2459DA876D3DCC67B /* VISPER-Redux */ = {
+			isa = PBXGroup;
+			children = (
+				77E0F3E617F3A889AC53BEEFF293022B /* Action.swift */,
+				6B5956BB54B3C260CBC17B8BF0FA2E53 /* ActionDispatcher.swift */,
+				76310EB61EF8D0D3DD74BBFBB5349D10 /* ActionReducer.swift */,
+				9880217EDF7984DE0A8AB228FECCDDC7 /* ActionReducerType.swift */,
+				236A2D102E2C2C28DD886F2FE6557529 /* AnyActionReducer.swift */,
+				904B5FDBED491F47FF7133965971AF81 /* AppReducer.swift */,
+				DEDAD4D13B29E4256885AE7D87FD7F65 /* FunctionReducer.swift */,
+				712DFF3AACC6B89B6580FB6854CCD402 /* Middleware.swift */,
+				63709872432867C6C03ACDE3325F588F /* ObservableProperty.swift */,
+				97643209838B1F5E4F83EE48C450435D /* ObservablePropertySubscriptionReference.swift */,
+				0E2991A407AD72B2CCF0BFE59758B528 /* ObservablePropertyType.swift */,
+				F08867BEC116E6AFC2D8A1BAB5F7CDC3 /* ReducerContainer.swift */,
+				C63F5F811FD62B9F96587FD5747F8C24 /* ReducerProvider.swift */,
+				039D7AF63330697183DFD9C96B6615CB /* Redux.swift */,
+				F8B5ABF7A40BF463E30D7347C2EFCCF0 /* Store.swift */,
+				900F8B0630835B535D9689A0E6AB0805 /* StreamType.swift */,
+				18735B9C3962A0A276B2AE66A2D7917B /* SubscriptionReferenceBag.swift */,
+				CA1F810B735A488D294F7B8556EF1353 /* SubscriptionReferenceType.swift */,
+				F40086B1A2ECD4BA57B0F66F36FE25EF /* Support Files */,
+			);
+			name = "VISPER-Redux";
+			path = "VISPER-Redux";
+			sourceTree = "<group>";
+		};
+		A243A4FB794D7DC60EDEADF2C62B8197 /* Pods-SwiftyVISPER_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C33751BF0CFCB455066D7BA1F80393AA /* Info.plist */,
+				0C2900C4E19354C95B955D7DABA6EA86 /* Pods-SwiftyVISPER_Example.modulemap */,
+				D706AB38BFF636DC29CDF4BCCE2EA6D3 /* Pods-SwiftyVISPER_Example-acknowledgements.markdown */,
+				D17CB6FB11E799C7F816012E9D166ACC /* Pods-SwiftyVISPER_Example-acknowledgements.plist */,
+				7CC643E0A44618258DF0CF539FEC7B53 /* Pods-SwiftyVISPER_Example-dummy.m */,
+				FC4A5EBE54B104F0DAA0A2EC217E71DF /* Pods-SwiftyVISPER_Example-frameworks.sh */,
+				A15EDF88954BCFA677D4689E064CB27E /* Pods-SwiftyVISPER_Example-resources.sh */,
+				415885DEE9E1FCECCFFBEB54C97997E6 /* Pods-SwiftyVISPER_Example-umbrella.h */,
+				75346FE65CB6A867760B4E765E8608B3 /* Pods-SwiftyVISPER_Example.debug.xcconfig */,
+				EE50458D309DA0CB2DC2842801E44156 /* Pods-SwiftyVISPER_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftyVISPER_Example";
+			path = "Target Support Files/Pods-SwiftyVISPER_Example";
+			sourceTree = "<group>";
+		};
+		A4CD31197908CC752831334198991103 /* VISPER-Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				775AABD6ADA921FC6E6C5244D8CD51FB /* ControllerProvider.swift */,
+				D8C87FF3B31E0FC7C48F4FB3FD493678 /* RoutingObserver.swift */,
+				20BA88C987DB55915B7AB5402343E520 /* RoutingOption.swift */,
+				4AA95960BB9963DBA959007D13B8A6DB /* RoutingOptionProvider.swift */,
+				200483EF2402D97C1A07D0A50D1EEAEC /* RoutingPresenter.swift */,
+				407CE7C0458EF15BC5773D8B12712EFD /* VISPERWireframe.swift */,
+				0FB3C8464DE5C5B66D62FDDBD14759F2 /* Wireframe.swift */,
+				F518B536C0533FBB32ADFF70DEB199C3 /* Support Files */,
+			);
+			name = "VISPER-Wireframe";
+			path = "../../../VISPER-Wireframe";
+			sourceTree = "<group>";
+		};
+		BAF5F104387347E5BA5E58D757B13285 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				860624E0FAA5C92DB2B3214D7C051263 /* SwiftyVISPER */,
+				A4CD31197908CC752831334198991103 /* VISPER-Wireframe */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0732BAAFC175544DC76D2702F790FB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4776293E42AE1F4BEE5616E7C323297 /* VISPER_Redux.framework */,
+				46998994C3347F5CDEFBE365F7E35BE5 /* VISPER_Wireframe.framework */,
+				7D2C03E10BD0F95CF069DF7F654FC865 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD7AACBB39A69494E282B1CD5462314D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A243A4FB794D7DC60EDEADF2C62B8197 /* Pods-SwiftyVISPER_Example */,
+				0BFE58297D06F200E8756B36544DCDF9 /* Pods-SwiftyVISPER_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F40086B1A2ECD4BA57B0F66F36FE25EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB85A48916EE0ACADED841C1C54269E0 /* Info.plist */,
+				B7357B92E3D1C8057A4529923698A03A /* VISPER-Redux.modulemap */,
+				785D98CF73A139401B8CB63ACC63F3DA /* VISPER-Redux.xcconfig */,
+				F4FA0A021C64D5164340C4D41D557380 /* VISPER-Redux-dummy.m */,
+				4B94A74A6405220959BCAEF3A9685FA9 /* VISPER-Redux-prefix.pch */,
+				FBD69167C81B3B11260553817D1546FC /* VISPER-Redux-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VISPER-Redux";
+			sourceTree = "<group>";
+		};
+		F518B536C0533FBB32ADFF70DEB199C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D28A8FF2A455F59A079AC13FFDE4F1 /* Info.plist */,
+				B9CBB445DF6E293575D4BE2496F6E99E /* VISPER-Wireframe.modulemap */,
+				11F777DB2D292871C05133E5414F6F73 /* VISPER-Wireframe.xcconfig */,
+				5343E6CDB33842B7CD29F230687A4757 /* VISPER-Wireframe-dummy.m */,
+				F5F12DDE75BAE9C24E786D9804471396 /* VISPER-Wireframe-prefix.pch */,
+				D00EEE15D2B735551C9776C091F1A08C /* VISPER-Wireframe-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../SwiftyVISPER/Example/Pods/Target Support Files/VISPER-Wireframe";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34A1BC16C82F08784CD31979029D271C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B30856E198A088F75A0168503B81A2 /* SwiftyVISPER-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9C914E0D5A8E0C839675441CAB610D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E6070FFF4136CBC98E9A785807067F /* Pods-SwiftyVISPER_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7373FBB8E5A5255D8E46DC3A23FEDB77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1D2B86182512005EC818BEE97726A2 /* VISPER-Wireframe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDE4FB0FD36B7E1780B92F1B00F5846 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA0FE9361269DACB18BF9A24E681943 /* VISPER-Redux-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DF7208B17E84E7AD6342E909173C71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB207B585D729A923E65226FA377A970 /* Pods-SwiftyVISPER_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		159F05AFED41CE1E60B718CAF3F80B2E /* Pods-SwiftyVISPER_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6306F1B4909F355D2F3B0526E943C17 /* Build configuration list for PBXNativeTarget "Pods-SwiftyVISPER_Example" */;
+			buildPhases = (
+				A8887634B27B735E4F0A4C5DDB264511 /* Sources */,
+				76F1FED77E8DAD69FB51C07DEDA25DD4 /* Frameworks */,
+				D9DF7208B17E84E7AD6342E909173C71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F10ACB693AD0CA80D07413F3E15C0C /* PBXTargetDependency */,
+				2B02E01798011E0B59A4316AA8880251 /* PBXTargetDependency */,
+				ADB5338007468F19B52C38FCD89968D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftyVISPER_Example";
+			productName = "Pods-SwiftyVISPER_Example";
+			productReference = E04A260AC523E63E525E59192ADF4ACC /* Pods_SwiftyVISPER_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FE24DC3DE9A73E669082818F8A5273B /* VISPER-Redux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13573F701801F99466D7BAD14CF5ED4B /* Build configuration list for PBXNativeTarget "VISPER-Redux" */;
+			buildPhases = (
+				815E9E82C50A80852D39CB7F1AF59B25 /* Sources */,
+				5E4537F8119B93B61A7C7E270ABFA932 /* Frameworks */,
+				8DDE4FB0FD36B7E1780B92F1B00F5846 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VISPER-Redux";
+			productName = "VISPER-Redux";
+			productReference = 82975245BD22EEFFE0F4DBE93AA7E384 /* VISPER_Redux.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB2EF551FE627A5A94DDFFD85B8B6D78 /* SwiftyVISPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4F772E011F8BD5B31B0022207ABCD0 /* Build configuration list for PBXNativeTarget "SwiftyVISPER" */;
+			buildPhases = (
+				9B932FC51972E8EDBD0BB436666642E2 /* Sources */,
+				0725390C94DD88961F71A729FECB1A6E /* Frameworks */,
+				34A1BC16C82F08784CD31979029D271C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E176C97A85AFAD175CA97EE490E54032 /* PBXTargetDependency */,
+				A892638DF4BE83B34142FBD253D4010A /* PBXTargetDependency */,
+			);
+			name = SwiftyVISPER;
+			productName = SwiftyVISPER;
+			productReference = 97443D151ED048736E117EE74629D619 /* SwiftyVISPER.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCA26248452C8FE543B81A609487C6D4 /* Pods-SwiftyVISPER_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8F5259540CC145CEFA7D4F77F828B3 /* Build configuration list for PBXNativeTarget "Pods-SwiftyVISPER_Tests" */;
+			buildPhases = (
+				08D0CDFE47C18ADE91106C50F3C33A3D /* Sources */,
+				4C322A7DAAFB10C49F31C594FC819F0E /* Frameworks */,
+				5D9C914E0D5A8E0C839675441CAB610D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftyVISPER_Tests";
+			productName = "Pods-SwiftyVISPER_Tests";
+			productReference = E8598773C7937F5A5D41FDA8243B7613 /* Pods_SwiftyVISPER_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7DEA4D6283D09D3BB19E6D18200B01B /* VISPER-Wireframe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6288D43DD103C9EF5EE41DFC4C470D /* Build configuration list for PBXNativeTarget "VISPER-Wireframe" */;
+			buildPhases = (
+				B0359D71E0CF8EFDC6D649B6F5AF071E /* Sources */,
+				697E53D9F70D8D9378D0FA482DE04939 /* Frameworks */,
+				7373FBB8E5A5255D8E46DC3A23FEDB77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VISPER-Wireframe";
+			productName = "VISPER-Wireframe";
+			productReference = 26E0BEA90750F7F6B36CC7AEC9B6FFDC /* VISPER_Wireframe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2F3ADCCE8AF0C80FFD8F0CE50317DC3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				159F05AFED41CE1E60B718CAF3F80B2E /* Pods-SwiftyVISPER_Example */,
+				BCA26248452C8FE543B81A609487C6D4 /* Pods-SwiftyVISPER_Tests */,
+				AB2EF551FE627A5A94DDFFD85B8B6D78 /* SwiftyVISPER */,
+				4FE24DC3DE9A73E669082818F8A5273B /* VISPER-Redux */,
+				E7DEA4D6283D09D3BB19E6D18200B01B /* VISPER-Wireframe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D0CDFE47C18ADE91106C50F3C33A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337334124760E96B842626F129034787 /* Pods-SwiftyVISPER_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815E9E82C50A80852D39CB7F1AF59B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42C16C1F3E0C022DD19CE588ECFB48E /* Action.swift in Sources */,
+				F9B2112AA7C8DB3FF807002E05FF3277 /* ActionDispatcher.swift in Sources */,
+				00F1F0E5EC8AAB9F209EA2032BC29C6B /* ActionReducer.swift in Sources */,
+				1238F54890B142B78B8C5EAA42711F4A /* ActionReducerType.swift in Sources */,
+				F56F94FD4707ACB824DA980BE93A0A4B /* AnyActionReducer.swift in Sources */,
+				29199CF8CE86A78B47A4259D5F1112DD /* AppReducer.swift in Sources */,
+				9DB382E5CE5F469F1CE33E8D26155411 /* FunctionReducer.swift in Sources */,
+				A351A2FA1AFB333DA6E44D8064A79F8A /* Middleware.swift in Sources */,
+				BE5EC76E87203D97005EEDBDBC5B7610 /* ObservableProperty.swift in Sources */,
+				C4483D0799291D05675F0349F12B6E87 /* ObservablePropertySubscriptionReference.swift in Sources */,
+				E10416A02E6B384720835D3975274969 /* ObservablePropertyType.swift in Sources */,
+				B244BE0DDA6F917AD54889FDF1518FF6 /* ReducerContainer.swift in Sources */,
+				D2D5DB1B694461431C9447F6213BF815 /* ReducerProvider.swift in Sources */,
+				730CC2703D067692BC4C46FECCF5CF09 /* Redux.swift in Sources */,
+				0C696ACFAA807E438C3751B7556AF535 /* Store.swift in Sources */,
+				1D8E6CDC005E7BDCE74281E11EA89DE1 /* StreamType.swift in Sources */,
+				DE1590131BF4F402CF398619A9F32F5C /* SubscriptionReferenceBag.swift in Sources */,
+				0EC14EAA4EE6C0FFDA143109BFFB7655 /* SubscriptionReferenceType.swift in Sources */,
+				A600EA3B539F4DB9CF4B995DADE48F07 /* VISPER-Redux-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B932FC51972E8EDBD0BB436666642E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE8649380858C58CFF2D0FB2E703390 /* AnyApplication.swift in Sources */,
+				295F421B24C196B05808ECB67A0BD299 /* AnyFeatureObserver.swift in Sources */,
+				2BBA0BC8FEB95E5C1403BB114B07F60C /* Application.swift in Sources */,
+				FF1756C9D5A0A80E304DA6393899308D /* ApplicationFactory.swift in Sources */,
+				805EB6B79F2B0CD8A47CC33E552F4480 /* ApplicationType.swift in Sources */,
+				D276B5F9AD261D16A1080A3BACB51255 /* Feature.swift in Sources */,
+				881B3C7F950CD044871AB0729026CCF2 /* FeatureObserverType.swift in Sources */,
+				BB06D7CAD5106387B688642FBBF33875 /* LogicFeature.swift in Sources */,
+				E0D29AFAB071F9344EE8AE9D750013DA /* LogicFeatureObserver.swift in Sources */,
+				7A861BF0905049BBC2CEBE9471FF37FB /* SwiftyVISPER-dummy.m in Sources */,
+				E7560570B62CF9E1C4C401EDBE9F62A6 /* ViewFeature.swift in Sources */,
+				B72C9F42FDBE41B67C4D1FFE1273214A /* ViewFeatureObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8887634B27B735E4F0A4C5DDB264511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFE01DC59BB22E146D983091040E9C1 /* Pods-SwiftyVISPER_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0359D71E0CF8EFDC6D649B6F5AF071E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAC1E061DD97ADF7840721B2826FD08 /* ControllerProvider.swift in Sources */,
+				6D053E7E5EF3B18D8AD6860E78755DA3 /* RoutingObserver.swift in Sources */,
+				F43545E29C341754C982BAC952A74F92 /* RoutingOption.swift in Sources */,
+				6DAF50116E3525816E73664B8ACADBC9 /* RoutingOptionProvider.swift in Sources */,
+				0E5D0084D40D4F5AB6A846BE4CEDEA14 /* RoutingPresenter.swift in Sources */,
+				F9F5D48AC91F94237C1C7270C789339B /* VISPER-Wireframe-dummy.m in Sources */,
+				9E70A6C6AAE68C795AD4A5230BFB5DED /* VISPERWireframe.swift in Sources */,
+				BD7C2B155020514690437C28CCA17166 /* Wireframe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B02E01798011E0B59A4316AA8880251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VISPER-Redux";
+			target = 4FE24DC3DE9A73E669082818F8A5273B /* VISPER-Redux */;
+			targetProxy = C022921144CD7D829A505BEC5D7F8115 /* PBXContainerItemProxy */;
+		};
+		91F10ACB693AD0CA80D07413F3E15C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyVISPER;
+			target = AB2EF551FE627A5A94DDFFD85B8B6D78 /* SwiftyVISPER */;
+			targetProxy = 800767FBF1F344E88A1720FE848A52D9 /* PBXContainerItemProxy */;
+		};
+		A892638DF4BE83B34142FBD253D4010A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VISPER-Wireframe";
+			target = E7DEA4D6283D09D3BB19E6D18200B01B /* VISPER-Wireframe */;
+			targetProxy = 4654D387487A0494FC14AA0895CD083F /* PBXContainerItemProxy */;
+		};
+		ADB5338007468F19B52C38FCD89968D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VISPER-Wireframe";
+			target = E7DEA4D6283D09D3BB19E6D18200B01B /* VISPER-Wireframe */;
+			targetProxy = 9239BEFF298AE20FA3DBF4F06BE38CC5 /* PBXContainerItemProxy */;
+		};
+		E176C97A85AFAD175CA97EE490E54032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VISPER-Redux";
+			target = 4FE24DC3DE9A73E669082818F8A5273B /* VISPER-Redux */;
+			targetProxy = 3E7C7694DD93E7B0C32FD85E79C94215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		134893B9385CA0CC7504AAF19E994FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F777DB2D292871C05133E5414F6F73 /* VISPER-Wireframe.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VISPER-Wireframe/VISPER-Wireframe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VISPER-Wireframe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VISPER-Wireframe/VISPER-Wireframe.modulemap";
+				PRODUCT_NAME = VISPER_Wireframe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		263464A87BC2E80C67D65E5AEAF5F1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785D98CF73A139401B8CB63ACC63F3DA /* VISPER-Redux.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VISPER-Redux/VISPER-Redux-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VISPER-Redux/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VISPER-Redux/VISPER-Redux.modulemap";
+				PRODUCT_NAME = VISPER_Redux;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AC1CCC23899B4C7130C716F1D163396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21EAD489271A3D97AFEB52EAF22FFCF /* SwiftyVISPER.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyVISPER/SwiftyVISPER-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyVISPER/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyVISPER/SwiftyVISPER.modulemap";
+				PRODUCT_NAME = SwiftyVISPER;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3494D743975E4CB5A0574F989118EC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785D98CF73A139401B8CB63ACC63F3DA /* VISPER-Redux.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VISPER-Redux/VISPER-Redux-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VISPER-Redux/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VISPER-Redux/VISPER-Redux.modulemap";
+				PRODUCT_NAME = VISPER_Redux;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35CB9BF611E3E2589174769E50BD816E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8887981CA830013C751CC3DDBCFB63 /* Pods-SwiftyVISPER_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyVISPER_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyVISPER_Tests/Pods-SwiftyVISPER_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftyVISPER_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6119395DF65076ACB6F2779D5118F1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21EAD489271A3D97AFEB52EAF22FFCF /* SwiftyVISPER.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyVISPER/SwiftyVISPER-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyVISPER/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyVISPER/SwiftyVISPER.modulemap";
+				PRODUCT_NAME = SwiftyVISPER;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		703739F96F9FCFC6B7CD6C7F2CD88409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F777DB2D292871C05133E5414F6F73 /* VISPER-Wireframe.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VISPER-Wireframe/VISPER-Wireframe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VISPER-Wireframe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VISPER-Wireframe/VISPER-Wireframe.modulemap";
+				PRODUCT_NAME = VISPER_Wireframe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95B603652BFAE29D2811EC5145B50104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75346FE65CB6A867760B4E765E8608B3 /* Pods-SwiftyVISPER_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyVISPER_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyVISPER_Example/Pods-SwiftyVISPER_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftyVISPER_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2148ADE0871C3CF40E5A179853127F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE50458D309DA0CB2DC2842801E44156 /* Pods-SwiftyVISPER_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyVISPER_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyVISPER_Example/Pods-SwiftyVISPER_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftyVISPER_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4FE354A8E2622C0108A52D4DFD2DCB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADACE640C375CBF7C14C706A8160AEFC /* Pods-SwiftyVISPER_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyVISPER_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyVISPER_Tests/Pods-SwiftyVISPER_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftyVISPER_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8F5259540CC145CEFA7D4F77F828B3 /* Build configuration list for PBXNativeTarget "Pods-SwiftyVISPER_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FE354A8E2622C0108A52D4DFD2DCB4 /* Debug */,
+				35CB9BF611E3E2589174769E50BD816E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13573F701801F99466D7BAD14CF5ED4B /* Build configuration list for PBXNativeTarget "VISPER-Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263464A87BC2E80C67D65E5AEAF5F1F3 /* Debug */,
+				3494D743975E4CB5A0574F989118EC87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6288D43DD103C9EF5EE41DFC4C470D /* Build configuration list for PBXNativeTarget "VISPER-Wireframe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703739F96F9FCFC6B7CD6C7F2CD88409 /* Debug */,
+				134893B9385CA0CC7504AAF19E994FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6306F1B4909F355D2F3B0526E943C17 /* Build configuration list for PBXNativeTarget "Pods-SwiftyVISPER_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B603652BFAE29D2811EC5145B50104 /* Debug */,
+				A2148ADE0871C3CF40E5A179853127F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4F772E011F8BD5B31B0022207ABCD0 /* Build configuration list for PBXNativeTarget "SwiftyVISPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC1CCC23899B4C7130C716F1D163396 /* Debug */,
+				6119395DF65076ACB6F2779D5118F1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

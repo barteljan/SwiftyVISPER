@@ -1,0 +1,6 @@
+framework module SwiftyVISPER {
+  umbrella header "SwiftyVISPER-umbrella.h"
+
+  export *
+  module * { export * }
+}

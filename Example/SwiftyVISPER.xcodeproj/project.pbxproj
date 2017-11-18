@@ -43,10 +43,10 @@
 		75AFBC101BBA04BD99BD7EA6 /* Pods-SwiftyVISPER_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVISPER_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVISPER_Example/Pods-SwiftyVISPER_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9C763D8FD411958CAD6E1E4A /* Pods-SwiftyVISPER_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVISPER_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVISPER_Tests/Pods-SwiftyVISPER_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4038316BB181F8277B3572C /* Pods-SwiftyVISPER_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVISPER_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVISPER_Example/Pods-SwiftyVISPER_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A59C46EB35E0A5DB1995CA0E /* SwiftyVISPER.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyVISPER.podspec; path = ../SwiftyVISPER.podspec; sourceTree = "<group>"; };
-		D5FFE59A558B722BF8E4478D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A59C46EB35E0A5DB1995CA0E /* SwiftyVISPER.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyVISPER.podspec; path = ../SwiftyVISPER.podspec; sourceTree = "<group>"; };
+		D5FFE59A558B722BF8E4478D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E0BB16AFF1EA65C9DCF71898 /* Pods_SwiftyVISPER_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyVISPER_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E205942093F7073B79000D77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E205942093F7073B79000D77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NXRMZBFVGZ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -338,10 +339,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyVISPER_Example/Pods-SwiftyVISPER_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftyVISPER/SwiftyVISPER.framework",
+				"${BUILT_PRODUCTS_DIR}/VISPER-Redux/VISPER_Redux.framework",
+				"${BUILT_PRODUCTS_DIR}/VISPER-Wireframe/VISPER_Wireframe.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyVISPER.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VISPER_Redux.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VISPER_Wireframe.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -517,6 +522,7 @@
 			baseConfigurationReference = A4038316BB181F8277B3572C /* Pods-SwiftyVISPER_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NXRMZBFVGZ;
 				INFOPLIST_FILE = SwiftyVISPER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +538,7 @@
 			baseConfigurationReference = 75AFBC101BBA04BD99BD7EA6 /* Pods-SwiftyVISPER_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NXRMZBFVGZ;
 				INFOPLIST_FILE = SwiftyVISPER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

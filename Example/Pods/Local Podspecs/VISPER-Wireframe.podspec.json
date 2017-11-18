@@ -1,0 +1,22 @@
+{
+  "name": "VISPER-Wireframe",
+  "version": "0.1.0",
+  "summary": "A short description of VISPER-Wireframe.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/barteljan/VISPER-Wireframe",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "barteljan": "jan.bartel@atino.net"
+  },
+  "source": {
+    "git": "https://github.com/barteljan/VISPER-Wireframe.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VISPER-Wireframe/Classes/**/*"
+}

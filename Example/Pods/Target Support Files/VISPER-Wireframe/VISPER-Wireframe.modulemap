@@ -1,0 +1,6 @@
+framework module VISPER_Wireframe {
+  umbrella header "VISPER-Wireframe-umbrella.h"
+
+  export *
+  module * { export * }
+}
