@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="SwiftyVISPER-Example" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SwiftyVISPER" TARGET_NAME="SwiftyVISPER_Example" CONFIG_NAME="Debug" SCHEME_NAME="SwiftyVISPER-Example" RUN_TARGET_PROJECT_NAME="SwiftyVISPER" RUN_TARGET_NAME="SwiftyVISPER_Example" MAKE_ACTIVE="TRUE">
-    <envs />
-    <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
-      <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
-    </EXTENSION>
-    <method />
-  </configuration>
-</component>
