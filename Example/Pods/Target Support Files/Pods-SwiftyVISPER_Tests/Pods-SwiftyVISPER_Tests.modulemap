@@ -1,6 +1,0 @@
-framework module Pods_SwiftyVISPER_Tests {
-  umbrella header "Pods-SwiftyVISPER_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

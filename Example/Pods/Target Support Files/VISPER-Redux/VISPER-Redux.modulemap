@@ -1,6 +1,0 @@
-framework module VISPER_Redux {
-  umbrella header "VISPER-Redux-umbrella.h"
-
-  export *
-  module * { export * }
-}

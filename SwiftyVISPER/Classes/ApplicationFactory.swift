@@ -25,7 +25,7 @@ public class ApplicationFactory<AppState> {
     
     /// create a default application
     open func makeApplication(initialState : AppState,
-                                  wireframe: Wireframe = VISPERWireframe()) -> AnyApplication<AppState>{
+                                  wireframe: Wireframe = DefaultWireframe()) -> AnyApplication<AppState>{
 
         let redux = Redux(initialState: initialState)
         return self.makeApplication(wireframe: wireframe, redux: redux)
