@@ -2,7 +2,7 @@
 # Be sure to run `pod lib lint SwiftyVISPER.podspec' to ensure this is a
 # valid spec before submitting.
 Pod::Spec.new do |s|
-  s.name             = 'SwiftyVISPER'
+  s.name             = 'VISPER-Swift'
   s.version          = '0.1.0'
   s.summary          = 'A short description of SwiftyVISPER.'
 
@@ -18,7 +18,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SwiftyVISPER/Classes/**/*'
+  s.source_files = 'VISPER-Swift/Classes/**/*'
 
   s.dependency 'VISPER-Redux'
   s.dependency 'VISPER-Wireframe'

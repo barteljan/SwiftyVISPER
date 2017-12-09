@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import SwiftyVISPER
+import VISPER_Swift
 
 class Tests: XCTestCase {
     

@@ -19,7 +19,7 @@ public struct ViewFeatureObserver<AppState>: FeatureObserverType {
         if let feature = feature as? ViewFeature {
             application.wireframe.add(controllerProvider: feature, priority: feature.priority)
             application.wireframe.add(optionProvider: feature, priority: feature.priority)
-            application.wireframe.addRoutePattern(pattern: feature.routePattern)
+            try application.wireframe.add(routePattern: feature.routePattern)
         }
         
     }

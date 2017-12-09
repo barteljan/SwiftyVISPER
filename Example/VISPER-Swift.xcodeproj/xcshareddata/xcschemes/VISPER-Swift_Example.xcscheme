@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "SwiftyVISPER_Example.app"
-               BlueprintName = "SwiftyVISPER_Example"
-               ReferencedContainer = "container:SwiftyVISPER.xcodeproj">
+               BuildableName = "VISPER-Swift_Example.app"
+               BlueprintName = "VISPER-Swift_Example"
+               ReferencedContainer = "container:VISPER-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SwiftyVISPER_Tests.xctest"
-               BlueprintName = "SwiftyVISPER_Tests"
-               ReferencedContainer = "container:SwiftyVISPER.xcodeproj">
+               BuildableName = "VISPER-Swift_Tests.xctest"
+               BlueprintName = "VISPER-Swift_Tests"
+               ReferencedContainer = "container:VISPER-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SwiftyVISPER_Tests.xctest"
-               BlueprintName = "SwiftyVISPER_Tests"
-               ReferencedContainer = "container:SwiftyVISPER.xcodeproj">
+               BuildableName = "VISPER-Swift_Tests.xctest"
+               BlueprintName = "VISPER-Swift_Tests"
+               ReferencedContainer = "container:VISPER-Swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SwiftyVISPER_Example.app"
-            BlueprintName = "SwiftyVISPER_Example"
-            ReferencedContainer = "container:SwiftyVISPER.xcodeproj">
+            BuildableName = "VISPER-Swift_Example.app"
+            BlueprintName = "VISPER-Swift_Example"
+            ReferencedContainer = "container:VISPER-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SwiftyVISPER_Example.app"
-            BlueprintName = "SwiftyVISPER_Example"
-            ReferencedContainer = "container:SwiftyVISPER.xcodeproj">
+            BuildableName = "VISPER-Swift_Example.app"
+            BlueprintName = "VISPER-Swift_Example"
+            ReferencedContainer = "container:VISPER-Swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,9 +101,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SwiftyVISPER_Example.app"
-            BlueprintName = "SwiftyVISPER_Example"
-            ReferencedContainer = "container:SwiftyVISPER.xcodeproj">
+            BuildableName = "VISPER-Swift_Example.app"
+            BlueprintName = "VISPER-Swift_Example"
+            ReferencedContainer = "container:VISPER-Swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

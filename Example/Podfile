@@ -1,12 +1,13 @@
 use_frameworks!
 
-target 'SwiftyVISPER_Example' do
-  pod 'SwiftyVISPER', :path => '../'
+target 'VISPER-Swift_Example' do
+  pod 'VISPER-Swift', :path => '../'
   pod 'VISPER-Wireframe', :path => '../../VISPER-Wireframe'
+  pod 'VISPER-Wireframe-Core', :path => '../../VISPER-Wireframe'
+  pod 'VISPER-Wireframe-UIViewController', :path => '../../VISPER-Wireframe'
+  pod 'VISPER-Wireframe-Objc', :path => '../../VISPER-Wireframe'
 
-  target 'SwiftyVISPER_Tests' do
+  target 'VISPER-Swift_Tests' do
     inherit! :search_paths
-
-    
   end
 end

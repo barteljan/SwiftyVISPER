@@ -7,7 +7,7 @@
 
 import Foundation
 import VISPER_Redux
-import VISPER_Wireframe
+import VISPER_Wireframe_Core
 
 // some base class needed for type erasure, ignore it if possible
 class _AnyApplication<AppState> : ApplicationType{

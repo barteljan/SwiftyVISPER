@@ -7,6 +7,7 @@
 
 import Foundation
 import VISPER_Redux
+import VISPER_Wireframe_Core
 import VISPER_Wireframe
 
 /// a factory to create a default SwiftyVISPER application

@@ -7,7 +7,7 @@
 
 import Foundation
 import VISPER_Redux
-import VISPER_Wireframe
+import VISPER_Wireframe_Core
 
 /// A SwiftyVisper application, containing all dependencies which should be configured by features
 open class Application<AppState> : ApplicationType {
